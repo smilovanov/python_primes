@@ -11,7 +11,7 @@ finally:
 #variable to format output
 format_len = len(str(calc_limit))
 
-#used only to measure optimization of script
+#variable to store start time of calculatios to measure optimization of script
 start_time = time.time ()
 
 #calculations block
