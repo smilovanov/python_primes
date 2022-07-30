@@ -22,7 +22,8 @@ while i <= calc_limit:
 	for divider in primes:
 		if i % divider == 0:
 			prime = False
-	if prime == True: 
+			break
+	if prime: 
 		print (f"{i:<{format_len}d}", end="",flush=True)
 		primes.add (i)
 	i += 1
